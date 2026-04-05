@@ -3,7 +3,7 @@ function ListRenderingExample() {
 
   return (
     <div>
-      <h3>7) List Rendering (map)</h3>
+      <h3>7) List_ Rendering (map)</h3>
       <ul>
         {/* map() creates one <li> for each item */}
         {skills.map((skill) => (
