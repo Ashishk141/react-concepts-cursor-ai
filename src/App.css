@@ -1,0 +1,87 @@
+.app-shell {
+  min-height: 100vh;
+  padding: 24px;
+  background: #f5f7fb;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+.app-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0 0 8px;
+}
+
+.app-header p {
+  margin: 0;
+  color: #4b5563;
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.concept-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.concept-card h3 {
+  margin-top: 0;
+  color: #111827;
+}
+
+.concept-card p {
+  line-height: 1.5;
+}
+
+.concept-card button {
+  margin-right: 8px;
+  margin-top: 8px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.concept-card button:hover {
+  background: #1d4ed8;
+}
+
+.concept-card input {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.output {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #eef2ff;
+  color: #312e81;
+  font-size: 0.92rem;
+}
+
+.status-online {
+  color: #047857;
+  font-weight: 600;
+}
+
+.status-offline {
+  color: #b91c1c;
+  font-weight: 600;
+}
